@@ -1,0 +1,42 @@
+body {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+div {
+    width: 100%;
+    overflow-x: auto;
+}
+
+table {
+    width: 900px;
+    margin: 0 auto;
+}
+
+table,td {
+    border-collapse: collapse;
+    border: solid 1px grey;
+}
+
+td:first-child {
+    position: relative;
+    width: 150px;
+}
+
+td {
+    padding: 15px
+}
+.delete {
+    position: absolute;
+    right: 105%;
+    width: 15px;
+}
+#newrow {
+    margin-top: 30px;
+}
+#elem {
+    padding-left: 30px;
+}
